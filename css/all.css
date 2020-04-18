@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        <title> Keat </title>
+        <style>
+.clear{clear:both;}
+*{padding: 0; margin: 0;}
+li{list-style: none;}
+a{text-decoration: none; color: #000;}
+img{display: inline-block;}
+.left_type,
+.right_type{display: inline-block; padding: 10px; font-size: 25px; border: 1px solid #fff; color: #fff;}
+.left_type span,
+.right_type span{font-size: 0;}
+        </style>
+    </head>
+    
+    <body>
+        <a href="#a" class="xi-angle-left left_type"><span>왼쪽</span></a>
+        <a href="#a" class="xi-angle-right right_type"><span>오른쪽</span></a>
+    </body>
+</html>
